@@ -1,4 +1,4 @@
-// nn bb ss u  // Trick to learn data types.
+// nn bb ss u  - Primivite data type in JS // Trick to learn data types.
 
 let a = null;
 let b = 200;
@@ -10,3 +10,13 @@ let g = undefined;
 console.log(a, b, c, d, e, f, g );
 
 console.log(typeof d) //Console to get the type.
+
+// Objects in JS
+
+let items = {
+    "Shushant" : 1,
+    "Bhavin": 2,
+}
+
+console.log(items);
+console.log(items["Shushant"])
