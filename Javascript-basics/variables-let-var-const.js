@@ -3,6 +3,8 @@ console.log(a);
 
 console.log("Javascript var, let and const");
 var ab = 10;
+const author = "Shushant";
+// let author = 5;   // Here redeclaration and re assignment of the constant is going to give us error.
 // var ab = 200;    // It can be buggy to redeclare
 {
     var ab = 100;      // Here var is globally declared so, the value  is going to update.
