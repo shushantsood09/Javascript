@@ -9,3 +9,13 @@ const pi = 3.14 // Variable that value can never change.
 // For example :  
 // var myName;
 // var MyName;   Both the variables are different.
+
+var myDecimal = 0.008;
+console.log(myDecimal);
+
+var reminder;
+reminder = 11 % 3;
+console.log(reminder);
+
+var myStr = "This a string \"having double quotes\" here."
+console.log(myStr);
