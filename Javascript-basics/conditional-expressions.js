@@ -1,5 +1,6 @@
 // let a  = prompt("Hey this is Shushant!!");
-// a = Number.parseInt(a);
+// console.log(typeof a);
+// a = Number.parseInt(a);  // converting a string to number
 
 let data = 10;
 if(data >= 10){
@@ -11,4 +12,4 @@ else{
 
 // Alternative of if else is ternary operator.
 let age = 19;
-console.log("You can", age > 18 ? "Drive" : "Not drive")
+console.log("You can", age > 18 ? "Drive" : "Not drive");
