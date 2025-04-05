@@ -1,10 +1,12 @@
+const prompt = require('prompt-sync')();
+
 // While Loop
 let x = 20;
 
 let i =0;
 
 while (i < x){
-    console.log(i)
+    console.log(i);
     i++;
 }
 
@@ -12,7 +14,7 @@ while (i < x){
 
 console.log("\nDo While loop \n");
 
-let n = 10;
+let n = prompt("Enter the value of n : ");
 
 let j = 0;
 do{

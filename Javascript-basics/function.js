@@ -3,17 +3,23 @@ const hello = () => {
     return "Hi";
 }
 
+v = hello();
+console.log(v);
+
+// Function for sum of two numbers;
+
 let a = 1;
 let b = 2;
 let c = 3;
 
-v = hello();
-console.log(v);
+
 
 function onePlusAvg(x, y) {
   console.log("done");
   return 1 + (x + y) / 2;
 }
+
+// Arrow function in javascript.
 
 const sum = (p, q) => {
   return p + q;
