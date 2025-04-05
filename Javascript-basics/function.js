@@ -1,3 +1,4 @@
+// Arrow function in JS.
 const hello = () => {
     console.log("Hello how are you");
     return "Hi";
