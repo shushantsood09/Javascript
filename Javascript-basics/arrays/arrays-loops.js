@@ -21,4 +21,11 @@ for(let i of num){
     console.log(i)
 }
 
+// for...in loop  
+for(let item in num){
+    console.log(num[item])
+}
+
+
+
 
